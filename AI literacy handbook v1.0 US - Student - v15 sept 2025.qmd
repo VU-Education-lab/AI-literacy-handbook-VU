@@ -19,6 +19,9 @@ format:
     smooth-scroll: true
     number-sections: true
 bibliography: references.bib
+
+project:
+  output-dir: /Users/silvesterdraaijer/Documents/GitHub/AI-literacy-handbook-VU/docs
 ---
 
 Handbook of AI literacy
