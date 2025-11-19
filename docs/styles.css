@@ -1,0 +1,243 @@
+/* Custom styles for AI Literacy Companion */
+
+/* Classic font styling */
+body {
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Headings with classic font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+}
+
+/* License info box */
+.license-info {
+    background-color: #f8f9fa;
+    border-left: 4px solid #0066cc;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+}
+
+.license-info img {
+    margin-top: 1rem;
+}
+
+/* Footer styling */
+.page-footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 2px solid #e9ecef;
+    text-align: center;
+    color: #6c757d;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+}
+
+/* Table and Figure captions */
+.figure-caption,
+figcaption,
+.tbl-cap-text,
+caption,
+table caption {
+    font-style: italic !important;
+    font-size: 0.9em !important;
+    color: #6c757d !important;
+    margin-top: 0.5rem;
+}
+
+/* Figure captions as italic paragraphs */
+p em:first-child {
+    font-size: 0.9em;
+    color: #6c757d;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+/* More specific: paragraphs starting with "Figure" in italics */
+p:has(em:first-child) {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+/* Improve table styling */
+table {
+    margin: 2rem 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.9em;
+}
+
+table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Callout improvements */
+.callout {
+    margin: 1.5rem 0;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.callout-tip {
+    background-color: #f0f9ff;
+    border: 2px solid #38bdf8;
+    border-left: 5px solid #0ea5e9;
+}
+
+.callout-tip .callout-header {
+    color: #0c4a6e;
+    font-weight: 600;
+}
+
+.callout-tip .callout-body {
+    color: #1e293b;
+}
+
+.callout-tip .callout-icon {
+    color: #0ea5e9;
+}
+
+.callout-note {
+    background-color: #fefce8;
+    border: 2px solid #fde047;
+    border-left: 5px solid #eab308;
+}
+
+.callout-note .callout-header {
+    color: #713f12;
+    font-weight: 600;
+}
+
+.callout-note .callout-body {
+    color: #1e293b;
+}
+
+.callout-warning {
+    background-color: #fff7ed;
+    border: 2px solid #fb923c;
+    border-left: 5px solid #f97316;
+}
+
+.callout-warning .callout-header {
+    color: #7c2d12;
+    font-weight: 600;
+}
+
+.callout-warning .callout-body {
+    color: #1e293b;
+}
+
+.callout-important {
+    background-color: #fef2f2;
+    border: 2px solid #fca5a5;
+    border-left: 5px solid #ef4444;
+}
+
+.callout-important .callout-header {
+    color: #7f1d1d;
+    font-weight: 600;
+}
+
+.callout-important .callout-body {
+    color: #1e293b;
+}
+
+/* Figure captions */
+figcaption {
+    font-style: italic;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Improve heading spacing */
+h1 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #34495e;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+/* Code blocks */
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    background-color: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Accessibility improvements */
+:focus {
+    outline: 2px solid #0066cc;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    .page-footer {
+        border-top: 2px solid #000;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+}
